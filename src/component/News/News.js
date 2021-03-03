@@ -6,8 +6,8 @@ const News = (props) => {
         <div className="row row-cols-1 row-cols-md-1 g-4">
         {
             article.map(article =>
-                <div class="col">
-                    <div class="card">
+                <div className="col">
+                    <div className="card">
                         <img src={article.urlToImage} className="card-img-top" alt="news photos" />
                         <div className="card-body">
                             <h6 className="card-title"><b>Title:</b> {article.title}</h6>

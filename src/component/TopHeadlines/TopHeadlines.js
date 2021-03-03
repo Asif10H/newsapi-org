@@ -1,9 +1,10 @@
 import React from 'react';
 import './TopHeadlines.css'
 const TopHeadlines = (props) => {
+    
     const { title, author, urlToImage, publishedAt } = props.article;
     const handleNewInfo = props.handleNewInfo;
-    console.log("handleNewInfo ", handleNewInfo);
+
     return (
         <div className="col">
             <div className="card">
